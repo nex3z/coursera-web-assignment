@@ -1,0 +1,129 @@
+body {
+  font-size: 16px;
+  font-family: 'Permanent Marker', 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+#header-nav {
+  background-color: #f44336;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/restaurant.png') no-repeat;
+  width: 96px;
+  height: 96px;
+  margin: 10px 15px 10px 0px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Courgette', cursive;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.navbar-brand p span {
+  font-size: 12px;
+  vertical-align: middle;
+  color: #EEEEEE;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #B71C1C;
+}
+
+#nav-list a span {
+  font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px
+}
+
+.menu_item {
+  border: 1px solid black;
+  padding: 5px 10px 10px 10px;
+  border-radius: 15px;
+}
+
+.menu_item h2{
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #logo-img {
+    background: url('../images/restaurant_medium.png') no-repeat;
+    width: 72px;
+    height: 72px;
+    margin: 10px 5px 10px 0;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #header-nav {
+    height: 80px
+  }
+  .navbar-brand h1 {
+    line-height: .5;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+  	padding-top: 10px;
+  	height: 70px;
+  }
+  .navbar-brand h1 {
+  	padding-top: 10px;
+  	font-size: 5vw;
+
+  }
+  .navbar-brand p img {
+  	height: 20px;
+  }
+  .navbar-brand p {
+  	font-size: .6em;
+  	margin-top: 12px;
+  }
+}
