@@ -1,11 +1,9 @@
 body {
   font-size: 16px;
-  font-family: 'Permanent Marker', 'Comic Sans MS', cursive;
-  font-family: 'Comic Sans MS', sans-serif;
 }
 
 #header-nav {
-  background-color: #f44336;
+  background-color: #FF9800;
   border-radius: 0;
   border: 0;
 }
@@ -58,7 +56,7 @@ body {
 }
 
 #nav-list a:hover {
-  background: #B71C1C;
+  background: #EF6C00;
 }
 
 #nav-list a span {
@@ -71,17 +69,23 @@ body {
 
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px
+  margin-top: -30px;
 }
 
-.menu_item {
-  border: 1px solid black;
-  padding: 5px 10px 10px 10px;
-  border-radius: 15px;
+.card-block {
+  padding: 0px 15px 10px 15px;
 }
 
-.menu_item h2{
+.card-block a{
+  margin-left: 0px;
+}
+
+.card-block  h2{
   text-align: center;
+}
+
+.card {
+	margin-bottom: 20px;
 }
 
 @media (min-width: 1200px) {
@@ -111,7 +115,7 @@ body {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   .navbar-brand {
-  	padding-top: 10px;
+  	padding-top: 5px;
   	height: 70px;
   }
   .navbar-brand h1 {
