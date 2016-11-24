@@ -72,6 +72,11 @@ body {
   margin-top: -30px;
 }
 
+.title {
+  padding-bottom: 20px;
+  font-size: 2em;
+}
+
 .card-block {
   padding: 0px 15px 10px 15px;
 }
